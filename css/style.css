@@ -23,21 +23,21 @@ html,body {
   padding: 0px;
 }
 
-@media (max-width:648.5px) {
+@media (max-width:640.5px) {
   .navbar {
     background-size: 150px;
     height: 102px;
   }
 }
 
-@media (max-width:348.5px) {
+@media (max-width:344.5px) {
   .navbar {
     background-size: 225px;
     height: 153px;
   }
 }
 
-@media (max-width:253.5px) {
+@media (max-width:222.5px) {
   .navbar {
     background-size: 300px;
     height: 204px;
