@@ -4,8 +4,9 @@ html,body {
   flex-direction: column;
   width: 100%;
   font-family: 'Segoe UI', sans-serif;
-  color: #f3d6e5;
-  background-color: #06596d;
+  font-weight: bold;
+  color: #06596d;
+  background-color: #f3d6e5;
 }
 
 @font-face {
@@ -16,7 +17,7 @@ html,body {
 .navbar {
   display: block;
   text-align: center;
-  background-color: #fbd6e9; /*Si la connexion n'est pas suffisante pour charger l'image*/
+  background-color: #06596d; /*Si la connexion n'est pas suffisante pour charger l'image*/
   background-image: url('../assets/img/Transflag.jpg');
   background-size: 75px;
   height: 51px;
@@ -65,15 +66,15 @@ html,body {
 h1 {
   text-align: center;
   font-size: 5em;
-  text-shadow: #1b1b1b 3px 2px 8px;
   word-wrap: break-word;
+  font-weight: bold;
 }
 
 .texteavertissement {
   text-align: center;
   font-size: 2em;
-  font-weight: 500;
-  text-shadow: #1b1b1b 3px 2px 8px;
+  font-weight: bold;
+
 }
 
 .underline{
@@ -81,8 +82,7 @@ h1 {
   margin: auto;
   margin-left: 5%;
   font-size: 1.5em;
-  color: #f3d6e5;
-  text-shadow: #1b1b1b 1px 1px 1px;
+  color: #06596d;
   text-decoration: underline;
 }
 
@@ -93,22 +93,23 @@ h1 {
 .buttonnextpage {
   width: auto;
   height: 40px;
-  color: #f3d6e5;
+  color: #06596d;
   border: 0px;
   border-radius: 13px;
-  background-color: #064959;
+  background-color: #eea6ca;
   margin: 15px;
   transition: 0.5s ease;
 }
 .buttonnextpage:hover {
   transition: 0.5s ease;
-  background-color: #fbd6e9;
-  color: #064959;
+  background-color: #06596d;
+  color: #eea6ca;
 }
 
 .divtitre {
   margin-top: auto;
   text-align: center;
+  font-weight: 900;
 }
 
 .titre {
@@ -116,9 +117,8 @@ h1 {
   margin-left: 3.5%;
   font-size: 1.8em;
   width: auto;
-  color: #f3d6e5;
+  color: #06596d;
   text-align: left;
-  text-shadow: #1b1b1b 1px 1px 1px;
   text-decoration: underline;
 }
 
@@ -126,8 +126,7 @@ h1 {
   margin: 1.5%;
   font-size: 1.6em;
   width: auto;
-  color: #f3d6e5;
-  text-shadow: #1b1b1b 2px 2px 3px;
+  color: #06596d;
   text-align: left;
 }
 
@@ -148,8 +147,7 @@ h1 {
   margin-bottom: 1em;
   text-align: left;
   font-size: 1.4em;
-  color: #f3d6e5;
-  text-shadow: #1b1b1b 2px 2px 3px;
+  color: #06596d;
   overflow-wrap: break-word;
 }
 
@@ -159,8 +157,7 @@ h1 {
   margin-right:6%;
   font-size: 1.3em;
   text-align: left;
-  color: #f3d6e5;
-  text-shadow: #1b1b1b 2px 2px 3px;
+  color: #06596d;
 }
 
 sup{
@@ -174,8 +171,7 @@ sup{
   margin-bottom: 1em;
   text-align: left;
   font-size: 1.1em;
-  color: #f3d6e5;
-  text-shadow: #1b1b1b 2px 2px 3px;
+  color: #06596d;
   overflow-wrap: break-word;
 }
 
@@ -189,8 +185,8 @@ sup{
 .nom{
   display:inline-flex;
   border-radius: 10px;
-  background-color: #064959 ;
-  color: #f3d6e5 ;
+  background-color: #eea6ca;
+  color: #06596d;
   width:100%;
   height:35px;
   margin-bottom:1em;
@@ -207,8 +203,8 @@ sup{
 .prenom{
   display:inline-flex;
   border-radius: 10px;
-  background-color: #064959 ;
-  color: #f3d6e5 ;
+  background-color: #eea6ca;
+  color: #06596d;
   width:100%;
   height:35px;
   margin-bottom:1em;
@@ -226,8 +222,8 @@ sup{
 .mail{
   display:inline-flex;
   border-radius: 10px;
-  background-color: #064959 ;
-  color: #f3d6e5 ;
+  background-color: #eea6ca;
+  color: #06596d;
   height:35px;
   width:100%;
   border: 0px;
@@ -243,8 +239,8 @@ sup{
 .raisons{
   display:inline-flex;
   border-radius: 10px;
-  background-color: #064959 ;
-  color: #f3d6e5 ;
+  background-color: #eea6ca;
+  color: #06596d;
   width:100%;
   height:35px;
   margin-bottom:1em;
@@ -255,7 +251,7 @@ sup{
 .description{
   margin:auto;
   text-align:start;
-  color: #f3d6e5 ;
+  color: #06596d;
   width:50%;
 }
 
@@ -263,8 +259,8 @@ sup{
   display:flex;
   margin:auto;
   border-radius: 10px;
-  background-color: #064959 ;
-  color: #f3d6e5 ;
+  background-color: #eea6ca;
+  color: #06596d;
   min-height: 50px;
   width:100%;
   height:100px;
@@ -279,16 +275,16 @@ sup{
   margin:auto;
   margin-top: 2em;
   margin-bottom: 2em;
-  background-color: #064959;
+  background-color: #eea6ca;
   border-radius: 10px;
   padding: 0.3em;
   border: 0px;
-  color: #f3d6e5 ;
+  color: #06596d ;
   transition: 0.5s ease;
 }
 .buttonform:active{
-  background-color: #f3d6e5;
-  color: #064959; 
+  background-color: #06596d;
+  color: #eea6ca; 
   transition: 0.3s ease;
 }
 
@@ -298,8 +294,8 @@ footer {
   width: 100%;
   margin-top: auto;
   height: 35px;
-  background-color: #064959;
-  color: #f3d6e5;
+  background-color: #06596d;
+  color: #eea6ca;
   font-size: 1em;
 }
 @media (max-width:278.5px) {
@@ -315,28 +311,28 @@ footer {
 }
 
 a {
-  color: #f3d6e5;
+  color: #eea6ca;
 }
 a:visited {
-  color: #f3d6e5;
+  color: #eea6ca;
 }
 a:hover {
-  color: #af7d98;
+  color: #9c6e87;
 }
 
 
 /* Fonctionne sur Firefox */
 * {
   scrollbar-width: auto;
-  scrollbar-color: #f3d6e5 #064959;
+  scrollbar-color: #06596d #eea6ca;
 }
 
 /* Fonctionne sur Chrome, Edge, et Safari */
 *::-webkit-scrollbar {
-  background-color: #064959;
+  background-color: #eea6ca;
   width: 10px;
 }
 
 *::-webkit-scrollbar-thumb {
-  background: #f3d6e5;
+  background: #06596d;
 }
