@@ -30,7 +30,7 @@ html,body {
   }
 }
 
-@media (max-width:344.5px) {
+@media (max-width:346px) {
   .navbar {
     background-size: 225px;
     height: 153px;
