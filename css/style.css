@@ -61,7 +61,7 @@ html,body {
 
 .flagtop {
   background-image: url('../assets/img/FlagTop.jpg');
-  height: 3vh;
+  height: 2%;
   background-size: contain;
   box-shadow: 0px 1.5px 10px #000000d0;
 }
@@ -69,7 +69,7 @@ html,body {
 .flagbottom {
   background-image: url('../assets/img/FlagBottom.jpg');
   background-size:contain;
-  height: 3vh;
+  height: 2%;
   margin-top: auto;
   margin-bottom: 35px;
   box-shadow: 0px -1.5px 10px #000000d0;
@@ -212,18 +212,34 @@ sup {
   overflow-wrap: break-word;
 }
 
-@media (orientation: portrait){
-  @media (max-width:900.5px) {
-    .divintro{
-      display:block;
-      text-align: center;
-    }
-    .divconclusion{
-      display:block;
-      text-align: center;
-    }
+@media (orientation:portrait) {
+  .divintro{
+    display:block;
+    text-align: center;
+  }
+  .texteintro{
+    font-size: 2vh;
+  }
+  h1{
+    font-size: 1.4em;
+  }
+  .texteavertissement{
+    font-size: 1.5vh;
+  }
+  .buttonnextpage{
+    font-size: 1.7vh;
+    height: 3vh;
+    border-radius: 4px;
+  }
+  .arrownextpage{
+    height: 1.4vh;
+  }
+  .divconclusion{
+    display:block;
+    text-align: center;
   }
 }
+
 
 #imgintro {
   border-radius: 15px;
