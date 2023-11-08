@@ -210,6 +210,7 @@ h1 {
 
 sup {
   font-size: 0.6em;
+  scroll-margin-top: 4rem;
 }
 
 .sup {
@@ -265,6 +266,8 @@ sup {
 }
 
 #imgintro {
+  display: flex;
+  justify-content: center;
   border-radius: 15px;
   max-width: 38%;
   margin-top: auto;
