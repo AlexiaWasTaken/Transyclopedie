@@ -197,16 +197,6 @@ h1 {
   color: #f4eeff;
 }
 
-.texteconclusion {
-  margin: auto;
-  margin-left: 8%;
-  margin-right: 8%;
-  text-align: left;
-  font-size: 1.4em;
-  color: #f4eeff;
-  overflow-wrap: break-word;
-}
-
 sup {
   font-size: 0.6em;
 }
@@ -223,9 +213,6 @@ sup {
 }
 
 @media (orientation:landscape){
-  .texteintro{
-    font-size: 1.5vw;
-  }
   h1{
     font-size: 3.5vw;
   }

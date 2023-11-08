@@ -213,9 +213,6 @@ sup{
 }
 
 @media (orientation:landscape){
-  .texteintro{
-    font-size: 1.5vw;
-  }
   h1{
     font-size: 3.5vw;
   }
