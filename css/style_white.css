@@ -224,9 +224,12 @@ sup{
   overflow-wrap: break-word;
 }
 
-#imgintro {
+.divimgintro{
   display: flex;
   justify-content: center;
+}
+
+#imgintro {
   border-radius: 15px;
   max-width: 38%;
   margin-top: auto;
@@ -236,9 +239,12 @@ sup{
   margin-right: 1.5%;
 }
 
-#imgconclusion {
+.divimgconclusion{
   display: flex;
   justify-content: center;
+}
+
+#imgconclusion {
   border-radius: 15px;
   max-width: 38%;
   margin-top: auto;
