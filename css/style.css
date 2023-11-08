@@ -82,7 +82,7 @@ h1 {
   font-size: 5vw;
   margin-top: 1vh;
   word-wrap: break-word;
-  text-shadow: #000000 2px 2px 3px;
+  text-shadow: #000000 2px 2px 2px;
 }
 
 .texteavertissement {

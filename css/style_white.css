@@ -82,7 +82,7 @@ h1 {
   font-size: 5vw;
   margin-top: 1vh;
   word-wrap: break-word;
-  text-shadow: #000000 2px 2px 3px;
+  text-shadow: #000000 2px 2px 2px;
 }
 
 .texteavertissement {
@@ -91,7 +91,7 @@ h1 {
   font-size: 2.2vw;
   font-weight: bold;
   margin-top: 1.2vh;
-  text-shadow: #666666 0px 1px 3px;
+  text-shadow: #000000 0px 1px 3px;
 }
 
 .soustitre{
@@ -256,7 +256,7 @@ sup{
 
 @media (max-height: 500.5px) {
   .textemonexperience{
-    margin: 1vw;
+    margin: 2vw;
     font-size: 1.2em;
   }
   #imgintro{
@@ -295,7 +295,7 @@ sup{
     text-align: center;
   }
   .textemonexperience{
-    margin: 1vw;
+    margin: 2.5vw;
   }
   #imgintro{
     margin-left: auto;
