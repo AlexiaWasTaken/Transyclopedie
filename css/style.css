@@ -11,7 +11,7 @@ html,body {
 
 @font-face {
   font-family: 'Segoe UI';
-  src: url('../segoe-ui.ttf');
+  src: url('../assets/police/segoe-ui.ttf');
 }
 
 .navbar {
@@ -59,20 +59,20 @@ html,body {
   color: #2c2c2c;
 }
 
-.flagtop{
+.flagtop {
   background-image: url('../assets/img/FlagTop.jpg');
   height: 3vh;
   background-size: contain;
-  box-shadow: 1px 2px 20px #000000e0;
+  box-shadow: 0px 1.5px 10px #000000d0;
 }
 
-.flagbottom{
+.flagbottom {
   background-image: url('../assets/img/FlagBottom.jpg');
   background-size:contain;
   height: 3vh;
   margin-top: auto;
   margin-bottom: 35px;
-  box-shadow: -1px -2px 20px #000000e0;
+  box-shadow: 0px -1.5px 10px #000000d0;
   position: relative;
   bottom: -35px;
 }
@@ -91,10 +91,10 @@ h1 {
   font-size: 2.2vw;
   font-weight: 500;
   margin-top: 1.2vh;
-  text-shadow: #000000 2px 2px 3px;
+  text-shadow: #666666 0px 1px 3px;
 }
 
-.underline{
+.soustitre {
   text-align: left;
   margin: auto;
   margin-left: 5%;
@@ -104,6 +104,11 @@ h1 {
 
 .divbuttonnextpage {
   text-align: center;
+}
+
+.divbuttonnextpagebas {
+  text-align: end;
+  margin-right: 1.5%;
 }
 
 .buttonnextpage {
@@ -122,12 +127,12 @@ h1 {
   background-color: #000000;
 }
 
-.arrownextpage{
+.arrownextpage {
   height: 22px;
   margin-left: 4px;
 }
 
-.inlinebutton{
+.inlinebutton {
   display: inline;
 }
 
@@ -140,18 +145,20 @@ h1 {
   margin-top: 1.5%;
   margin-left: 3.5%;
   font-size: 1.8em;
+  font-weight: bold;
   width: auto;
   color: #f4eeff;
   text-align: left;
 }
 
-.divintro{
+.divintro {
   margin-top: 2.5%;
   display: inline-flex;
 }
 
 .resumetexteintro {
   margin-top: 0;
+  margin-bottom: 2%;
   font-size: 1.6em;
   font-weight: bold;
   color: #f4eeff;
@@ -161,9 +168,33 @@ h1 {
 .texteintro {
   margin: 1.5%;
   margin-left: 2%;
-  font-size: 1.8em;
+  font-size: 1.6em;
   color: #f4eeff;
   text-align: center;
+}
+
+.divconclusion{
+  display: inline-flex;
+}
+
+@media (orientation:landscape){
+  .texteintro{
+    font-size: 4vh;
+  }
+  h1{
+    font-size: 7vh;
+  }
+  .texteavertissement{
+    font-size: 3vh;
+  }
+  .buttonnextpage {
+    font-size: 3vh;
+    height: 5vh;
+    border-radius: 4px;
+  }
+  .arrownextpage{
+    height: 2.7vh;
+  }
 }
 @media (max-width:900.5px) {
   .divintro{
@@ -187,19 +218,33 @@ h1 {
   .arrownextpage{
     height: 1.4vh;
   }
+  .divconclusion{
+    display:block;
+    text-align: center;
+  }
 }
 
-#imgintro{
+#imgintro {
   border-radius: 15px;
   max-width: 38%;
   margin-top: 6vh;
-  height:min-content;
+  height: min-content;
   margin-bottom: 25px;
   margin-left: 3%;
   margin-right: 1.5%;
 }
 
-.titreMent_leg{
+#imgconclusion {
+  border-radius: 15px;
+  max-width: 38%;
+  margin-top: 6vh;
+  height: min-content;
+  margin-bottom: 25px;
+  margin-left: 3%;
+  margin-right: 1.5%;
+}
+
+.titreMent_leg {
   margin: 5%;
   margin-bottom: 2%;
   font-size: 38px;
@@ -208,7 +253,7 @@ h1 {
   overflow-wrap: break-word;
 }
 
-.texte{
+.texte {
   margin: auto;
   margin-left: 8%;
   margin-right: 8%;
@@ -219,7 +264,7 @@ h1 {
   overflow-wrap: break-word;
 }
 
-.textebienagir{
+.textebienagir {
   margin: auto;
   margin-left:6%;
   margin-right:6%;
@@ -228,11 +273,21 @@ h1 {
   color: #f4eeff;
 }
 
-sup{
+.texteconclusion {
+  margin: auto;
+  margin-left: 8%;
+  margin-right: 8%;
+  text-align: left;
+  font-size: 1.4em;
+  color: #f4eeff;
+  overflow-wrap: break-word;
+}
+
+sup {
   font-size: 0.6em;
 }
 
-.sup{
+.sup {
   margin: auto;
   margin-left: 8%;
   margin-right: 8%;
@@ -243,14 +298,14 @@ sup{
   overflow-wrap: break-word;
 }
 
-.inputnom{
+.inputnom {
   display:inline-block;
   width:47.5%;
   margin-right:2%;
   margin-top:5px;
 }
 
-.nom{
+.nom {
   display:inline-flex;
   border-radius: 10px;
   background-color: #2c2c2c ;
@@ -262,13 +317,13 @@ sup{
   outline: none;
 }
 
-.inputprenom{
+.inputprenom {
   display:inline-block;
   width:47.5%;
   margin-top:5px;
 }
 
-.prenom{
+.prenom {
   display:inline-flex;
   border-radius: 10px;
   background-color: #2c2c2c ;
@@ -280,14 +335,14 @@ sup{
   outline: none;
 }
 
-.inputmail{
+.inputmail {
   display:inline-block;
   width:55%;
   margin-right:2%;
   margin-top:5px;
 }
 
-.mail{
+.mail {
   display:inline-flex;
   border-radius: 10px;
   background-color: #2c2c2c ;
@@ -298,13 +353,13 @@ sup{
   outline: none;
 }
 
-.selectraisons{
+.selectraisons {
   display:inline-block;
   width:40%;
   margin-top:5px;
 }
 
-.raisons{
+.raisons {
   display:inline-flex;
   border-radius: 10px;
   background-color: #2c2c2c ;
@@ -316,14 +371,14 @@ sup{
   outline: none;
 }
 
-.description{
+.description {
   margin:auto;
   text-align:start;
   color: #f4eeff ;
   width:50%;
 }
 
-.textarea{
+.textarea {
   display:flex;
   margin:auto;
   border-radius: 10px;
@@ -337,7 +392,7 @@ sup{
   outline: none;
 }
 
-.buttonform{
+.buttonform {
   display:block;
   text-align:center;
   margin:auto;
@@ -350,7 +405,7 @@ sup{
   color: #f4eeff ;
   transition: 0.5s ease;
 }
-.buttonform:active{
+.buttonform:active {
   background-color: #f4eeff;
   color: #2c2c2c; 
   transition: 0.3s ease;
