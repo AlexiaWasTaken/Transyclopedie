@@ -197,6 +197,15 @@ h1 {
   color: #2c2c2c;
 }
 
+.textemonexperience{
+  margin: auto;
+  margin-bottom: 1em;
+  text-align: left;
+  font-size: 1.4em;
+  color: #2c2c2c  ;
+  overflow-wrap: break-word;
+}
+
 sup{
   font-size: 0.6em;
 }
@@ -212,26 +221,13 @@ sup{
   overflow-wrap: break-word;
 }
 
-@media (orientation:landscape){
-  h1{
-    font-size: 3.5vw;
-  }
-  .texteavertissement{
-    font-size: 1.5vw;
-  }
-  .buttonnextpage{
-    font-size: 1.7vw;
-    height: 3vw;
-    border-radius: 4px;
-  }
-  .arrownextpage{
-    height: 1.4vw;
-  }
-  .texte{
-    font-size: 1.1em
+@media (max-height: 500.5px) {
+  .textemonexperience{
+    margin: auto;
+    font-size: 1.2em;
   }
 }
-@media (max-width:900.5px) {
+@media (orientation:portrait) {
   .divintro{
     display:block;
     text-align: center;
@@ -257,6 +253,13 @@ sup{
     display:block;
     text-align: center;
   }
+  .textemonexperience{
+    margin: auto;
+  }
+}
+
+#texteconclusion{
+  margin-bottom: auto;
 }
 
 #imgintro{
