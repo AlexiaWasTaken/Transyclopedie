@@ -225,6 +225,9 @@ sup {
   .texte{
     font-size: 1.1em
   }
+  .texteintro{
+    font-size: 1.1em;
+  }
 }
 @media (max-width:900.5px) {
   .divintro{
