@@ -177,31 +177,61 @@ h1 {
   display: inline-flex;
 }
 
+.texte{
+  margin: auto;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-bottom: 1em;
+  text-align: left;
+  font-size: 1.4em;
+  color: #2c2c2c;
+  overflow-wrap: break-word;
+}
+
+.textebienagir{
+  margin: auto;
+  margin-left:6%;
+  margin-right:6%;
+  font-size: 1.3em;
+  text-align: left;
+  color: #2c2c2c;
+}
+
+sup{
+  font-size: 0.6em;
+}
+
+.sup{
+  margin: auto;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-bottom: 1em;
+  text-align: left;
+  font-size: 1.1em;
+  color: #2c2c2c;
+  overflow-wrap: break-word;
+}
+
 @media (orientation:landscape){
-  .divintro{
-    display:block;
-    text-align: center;
-  }
   .texteintro{
-    font-size: 4vh;
+    font-size: 1.5vw;
   }
   h1{
-    font-size: 7vh;
+    font-size: 3.5vw;
   }
   .texteavertissement{
-    font-size: 3vh;
+    font-size: 1.5vw;
   }
-  .buttonnextpage {
-    font-size: 3vh;
-    height: 5vh;
+  .buttonnextpage{
+    font-size: 1.7vw;
+    height: 3vw;
     border-radius: 4px;
   }
   .arrownextpage{
-    height: 2.7vh;
+    height: 1.4vw;
   }
-  .divconclusion{
-    display:block;
-    text-align: center;
+  .texte{
+    font-size: 1.1em
   }
 }
 @media (max-width:900.5px) {
@@ -210,15 +240,15 @@ h1 {
     text-align: center;
   }
   .texteintro{
-    font-size: 1.5vh;
+    font-size: 2vh;
   }
   h1{
-    font-size: 3.5vh;
+    font-size: 1.4em;
   }
   .texteavertissement{
     font-size: 1.5vh;
   }
-  .buttonnextpage {
+  .buttonnextpage{
     font-size: 1.7vh;
     height: 3vh;
     border-radius: 4px;
@@ -258,41 +288,6 @@ h1 {
   font-size: 38px;
   font-weight: 700;
   text-decoration: underline;
-  overflow-wrap: break-word;
-}
-
-.texte{
-  margin: auto;
-  margin-left: 8%;
-  margin-right: 8%;
-  margin-bottom: 1em;
-  text-align: left;
-  font-size: 1.4em;
-  color: #2c2c2c;
-  overflow-wrap: break-word;
-}
-
-.textebienagir{
-  margin: auto;
-  margin-left:6%;
-  margin-right:6%;
-  font-size: 1.3em;
-  text-align: left;
-  color: #2c2c2c;
-}
-
-sup{
-  font-size: 0.6em;
-}
-
-.sup{
-  margin: auto;
-  margin-left: 8%;
-  margin-right: 8%;
-  margin-bottom: 1em;
-  text-align: left;
-  font-size: 1.1em;
-  color: #2c2c2c;
   overflow-wrap: break-word;
 }
 
