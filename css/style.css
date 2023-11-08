@@ -234,23 +234,6 @@ sup {
     display:block;
     text-align: center;
   }
-  .texteintro{
-    font-size: 2vh;
-  }
-  h1{
-    font-size: 1.4em;
-  }
-  .texteavertissement{
-    font-size: 1.5vh;
-  }
-  .buttonnextpage{
-    font-size: 1.7vh;
-    height: 3vh;
-    border-radius: 4px;
-  }
-  .arrownextpage{
-    height: 1.4vh;
-  }
   .divconclusion{
     display:block;
     text-align: center;
