@@ -212,31 +212,16 @@ sup {
   overflow-wrap: break-word;
 }
 
-@media (orientation:landscape){
-  h1{
-    font-size: 2em;
-  }
-  .texteavertissement{
-    font-size: 1.8em;
-  }
-  .arrownextpage{
-    height: 1.4vw;
-  }
-  .texte{
-    font-size: 1.1em
-  }
-  .texteintro{
-    font-size: 1.1em;
-  }
-}
-@media (max-width:900.5px) {
-  .divintro{
-    display:block;
-    text-align: center;
-  }
-  .divconclusion{
-    display:block;
-    text-align: center;
+@media (orientation: portrait){
+  @media (max-width:900.5px) {
+    .divintro{
+      display:block;
+      text-align: center;
+    }
+    .divconclusion{
+      display:block;
+      text-align: center;
+    }
   }
 }
 
