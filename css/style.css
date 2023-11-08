@@ -199,6 +199,8 @@ h1 {
 
 .textemonexperience{
   margin: auto;
+  margin-left: 6%;
+  margin-right: 6%;
   margin-bottom: 1em;
   text-align: left;
   font-size: 1.4em;
@@ -223,7 +225,7 @@ sup {
 
 @media (max-height: 500.5px) {
   .textemonexperience{
-    margin: auto;
+    margin: 1vw;
     font-size: 1.2em;
   }
 }
@@ -254,7 +256,7 @@ sup {
     text-align: center;
   }
   .textemonexperience{
-    margin: auto;
+    margin: 1vw;
   }
 }
 
@@ -267,7 +269,7 @@ sup {
   max-width: 38%;
   margin-top: auto;
   height: min-content;
-  margin-bottom: 25px;
+  margin-bottom: auto;
   margin-left: 3%;
   margin-right: 1.5%;
 }
