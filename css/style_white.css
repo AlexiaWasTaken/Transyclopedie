@@ -23,21 +23,15 @@ html,body {
   padding: 0px;
 }
 
-@media (max-width:640.5px) {
+@media (max-width:671.5px) {
   .navbar {
     height: 102px;
   }
 }
 
-@media (max-width:346px) {
+@media (max-width:374.5px) {
   .navbar {
     height: 153px;
-  }
-}
-
-@media (max-width:222.5px) {
-  .navbar {
-    height: 204px;
   }
 }
 
@@ -57,6 +51,20 @@ html,body {
 .buttonnavbar:hover {
   background-color: #f4eeff;
   color: #2c2c2c;
+}
+
+.buttonnavbaron {
+  display: inline;
+  font-weight: 800;
+  border-radius: 7px;
+  border: 3px solid transparent;
+  background-color: #f4eeff;
+  color: #2c2c2c;
+  height: 36px;
+  margin-top: 6.5px;
+  margin-left: 2.5px;
+  margin-right: 2.5px;
+  transition-duration: 0.5s;
 }
 
 .flagtop{
@@ -79,26 +87,26 @@ html,body {
 
 h1 {
   text-align: center;
-  font-size: 5vw;
+  font-size: 4rem;
   margin-top: 1vh;
   word-wrap: break-word;
-  text-shadow: #000000 2px 2px 2px;
+  text-shadow: #000000 0px 1px 2px;
 }
 
 .texteavertissement {
   color: #f4a9b7;
   text-align: center;
-  font-size: 2.2vw;
+  font-size: 2rem;
   font-weight: bold;
   margin-top: 1.2vh;
-  text-shadow: #000000 0px 1px 3px;
+  text-shadow: #000000 0px 1px 1px;
 }
 
 .soustitre{
   text-align: left;
   margin: auto;
   margin-left: 5%;
-  font-size: 1.5em; 
+  font-size: 1.5rem; 
   color: #2c2c2c;
 }
 
@@ -132,10 +140,6 @@ h1 {
   margin-left: 4px;
 }
 
-.inlinebutton{
-  display: inline;
-}
-
 .divtitre {
   margin-top: auto;
   text-align: center;
@@ -144,22 +148,23 @@ h1 {
 .titre {
   margin-top: 1.5%;
   margin-left: 3.5%;
-  font-size: 1.8em;
+  font-size: 1.8rem;
   font-weight: bold;
   width: auto;
   color: #2c2c2c;
   text-align: left;
 }
 
-.divintro{
+.divintro {
   margin-top: 2.5%;
   display: inline-flex;
+  justify-content: center;
 }
 
 .resumetexteintro {
   margin-top: 0;
   margin-bottom: 2%;
-  font-size: 1.6em;
+  font-size: 1.6rem;
   font-weight: bold;
   color: #2c2c2c;
   text-align: center;
@@ -168,13 +173,26 @@ h1 {
 .texteintro {
   margin: 1.5%;
   margin-left: 2%;
-  font-size: 1.8em;
+  font-size: 1.8rem;
   color: #2c2c2c;
   text-align: center;
 }
 
-.divconclusion{
+.divconclusion {
+  margin-top: 2.5%;
   display: inline-flex;
+  justify-content: center;
+}
+
+.texte {
+  margin: auto;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-bottom: 1em;
+  text-align: left;
+  font-size: 1.4rem;
+  color: #f4eeff;
+  overflow-wrap: break-word;
 }
 
 .texte{
@@ -183,7 +201,7 @@ h1 {
   margin-right: 8%;
   margin-bottom: 1em;
   text-align: left;
-  font-size: 1.4em;
+  font-size: 1.4rem;
   color: #2c2c2c;
   overflow-wrap: break-word;
 }
@@ -192,7 +210,7 @@ h1 {
   margin: auto;
   margin-left:6%;
   margin-right:6%;
-  font-size: 1.3em;
+  font-size: 1.3rem;
   text-align: left;
   color: #2c2c2c;
 }
@@ -201,7 +219,7 @@ h1 {
   margin: auto;
   margin-left: 6%;
   margin-right: 6%;
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
   text-align: left;
   font-size: 1.4em;
   color: #2c2c2c;
@@ -224,34 +242,26 @@ sup{
   overflow-wrap: break-word;
 }
 
-.divimgintro{
-  display: flex;
-  justify-content: center;
-}
-
 #imgintro {
   border-radius: 15px;
-  max-width: 38%;
+  max-width: 50%;
   margin-top: auto;
   height: min-content;
   margin-bottom: auto;
   margin-left: 3%;
   margin-right: 1.5%;
-}
-
-.divimgconclusion{
-  display: flex;
-  justify-content: center;
+  min-width: 200px;
 }
 
 #imgconclusion {
   border-radius: 15px;
-  max-width: 38%;
+  max-width: 50%;
   margin-top: auto;
   height: min-content;
   margin-bottom: auto;
-  margin-left: 3%;
-  margin-right: 1.5%;
+  margin-left: 2em;
+  margin-right: 2em;
+  min-width: 400px;
 }
 
 @media (max-height: 500.5px) {
@@ -266,6 +276,7 @@ sup{
   #imgconclusion{
     margin-left: auto;
     margin-right: auto;
+    min-width: 200px;
   }
 }
 @media (orientation:portrait) {
@@ -282,10 +293,13 @@ sup{
   .texteavertissement{
     font-size: 1.5vh;
   }
+  .textebienagir{
+    font-size: 1.8vh;
+  }
   .buttonnextpage{
-    font-size: 1.7vh;
-    height: 3vh;
-    border-radius: 4px;
+    font-size: 0.9em;
+    height: 1.9rem;
+    border-radius: 0.5rem;
   }
   .arrownextpage{
     height: 1.4vh;
@@ -304,11 +318,13 @@ sup{
   #imgconclusion{
     margin-left: auto;
     margin-right: auto;
+    min-width: 200px;
   }
 }
 
 #texteconclusion{
-  margin-bottom: auto;
+  margin-bottom: 3rem;
+  margin-left: 5%;
 }
 
 .titreMent_leg{
@@ -320,15 +336,13 @@ sup{
   overflow-wrap: break-word;
 }
 
-.inputnom{
-  display:inline-block;
-  width:47.5%;
-  margin-right:2%;
-  margin-top:5px;
+inlineform{
+  display: block;
+  justify-self: unset;
+  justify-content: unset;
 }
 
 .nom{
-  display:inline-flex;
   border-radius: 10px;
   background-color: #2c2c2c ;
   color: #f4eeff ;
@@ -337,16 +351,9 @@ sup{
   margin-bottom:1em;
   border: 0px;
   outline: none;
-}
-
-.inputprenom{
-  display:inline-block;
-  width:47.5%;
-  margin-top:5px;
 }
 
 .prenom{
-  display:inline-flex;
   border-radius: 10px;
   background-color: #2c2c2c ;
   color: #f4eeff ;
@@ -355,13 +362,6 @@ sup{
   margin-bottom:1em;
   border: 0px;
   outline: none;
-}
-
-.inputmail{
-  display:inline-block;
-  width:55%;
-  margin-right:2%;
-  margin-top:5px;
 }
 
 .mail{
@@ -373,12 +373,6 @@ sup{
   width:100%;
   border: 0px;
   outline: none;
-}
-
-.selectraisons{
-  display:inline-block;
-  width:40%;
-  margin-top:5px;
 }
 
 .raisons{
@@ -396,7 +390,7 @@ sup{
 .description{
   margin:auto;
   text-align:start;
-  color: #f4eeff ;
+  color: #2c2c2c ;
   width:50%;
 }
 
@@ -418,9 +412,10 @@ sup{
   display:block;
   text-align:center;
   margin:auto;
-  margin-top: 2em;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
   background-color: #2c2c2c;
+  width: auto;
+  height: 35px;
   border-radius: 10px;
   padding: 0.3em;
   border: 0px;
