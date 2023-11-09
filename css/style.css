@@ -257,7 +257,7 @@ sup {
 
 @media (max-height: 500.5px) {
   .textemonexperience{
-    margin: 1vw;
+    margin: 2vw;
     font-size: 1.2em;
   }
   #imgintro{
@@ -267,6 +267,7 @@ sup {
   #imgconclusion{
     margin-left: auto;
     margin-right: auto;
+    min-width: 200px;
   }
 }
 @media (orientation:portrait) {
@@ -287,21 +288,28 @@ sup {
     font-size: 1.8vh;
   }
   .buttonnextpage{
-    font-size: 1.7vh;
-    height: 1.3rem;
-    border-radius: 4px;
-    padding: 0.7rem;
-    padding-top: 0.15rem;
+    font-size: 0.9em;
+    height: 1.9rem;
+    border-radius: 0.5rem;
   }
   .arrownextpage{
-    height: 1em;
+    height: 1.4vh;
   }
   .divconclusion{
     display:block;
     text-align: center;
   }
   .textemonexperience{
-    margin: 1vw;
+    margin: 2.5vw;
+  }
+  #imgintro{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #imgconclusion{
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 200px;
   }
 }
 

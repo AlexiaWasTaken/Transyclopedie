@@ -87,26 +87,26 @@ html,body {
 
 h1 {
   text-align: center;
-  font-size: 4rem;
+  font-size: 5vw;
   margin-top: 1vh;
   word-wrap: break-word;
   text-shadow: #000000 0px 1px 2px;
 }
 
 .texteavertissement {
-  color: #f4a9b7;
+  color: #996099;
   text-align: center;
-  font-size: 2rem;
+  font-size: 2.2vw;
   font-weight: bold;
   margin-top: 1.2vh;
-  text-shadow: #000000 0px 1px 1px;
+  text-shadow: #666666 0px 1px 1px;
 }
 
 .soustitre{
   text-align: left;
   margin: auto;
   margin-left: 5%;
-  font-size: 1.5rem; 
+  font-size: 1.5em; 
   color: #2c2c2c;
 }
 
@@ -148,7 +148,7 @@ h1 {
 .titre {
   margin-top: 1.5%;
   margin-left: 3.5%;
-  font-size: 1.8rem;
+  font-size: 1.8em;
   font-weight: bold;
   width: auto;
   color: #2c2c2c;
@@ -164,7 +164,7 @@ h1 {
 .resumetexteintro {
   margin-top: 0;
   margin-bottom: 2%;
-  font-size: 1.6rem;
+  font-size: 1.6em;
   font-weight: bold;
   color: #2c2c2c;
   text-align: center;
@@ -173,7 +173,7 @@ h1 {
 .texteintro {
   margin: 1.5%;
   margin-left: 2%;
-  font-size: 1.8rem;
+  font-size: 1.8em;
   color: #2c2c2c;
   text-align: center;
 }
@@ -184,24 +184,13 @@ h1 {
   justify-content: center;
 }
 
-.texte {
-  margin: auto;
-  margin-left: 8%;
-  margin-right: 8%;
-  margin-bottom: 1em;
-  text-align: left;
-  font-size: 1.4rem;
-  color: #f4eeff;
-  overflow-wrap: break-word;
-}
-
 .texte{
   margin: auto;
   margin-left: 8%;
   margin-right: 8%;
   margin-bottom: 1em;
   text-align: left;
-  font-size: 1.4rem;
+  font-size: 1.4em;
   color: #2c2c2c;
   overflow-wrap: break-word;
 }
@@ -210,7 +199,7 @@ h1 {
   margin: auto;
   margin-left:6%;
   margin-right:6%;
-  font-size: 1.3rem;
+  font-size: 1.3em;
   text-align: left;
   color: #2c2c2c;
 }
@@ -219,7 +208,7 @@ h1 {
   margin: auto;
   margin-left: 6%;
   margin-right: 6%;
-  margin-bottom: 1rem;
+  margin-bottom: 1em;
   text-align: left;
   font-size: 1.4em;
   color: #2c2c2c;
