@@ -29,33 +29,41 @@
     </div>
 
     <form class="form">
-      <div class="inputnom">
-        <label class="label">Nom</label>
-        <input type="text" class="nom" maxlength="50" required>
+      <div class="row g-0 justify-content-center">
+        <div class="col-5 col-md-3 g-4">
+          <label class="label">Nom</label>
+          <input type="text" class="nom" maxlength="50" required>
+        </div>
+        <div class="col-5 col-md-3 g-4">
+          <label class="label">Prénom</label>
+          <input type="text" class="prenom" maxlength="50" required>
+        </div>
+        <div class="width-100"></div>
+        <div class="col-8 col-md-5 g-4">
+          <label class="label">Adresse e-mail</label>
+          <input type="email" class="mail" maxlength="75" required>
+        </div>
+        <div class="width-100"></div>
+        <div class="col-7 col-md-3 g-4">
+          <label class="label">Raisons</label>
+          <select class="raisons" required>
+            <option selected disabled value="">Choisissez</option>
+            <option>Bugs</option>
+            <option>Retours/Feedbacks</option>
+            <option>Questions</option>
+            <option>Autre</option>
+          </select>
+        </div>
+        <div class="width-100"></div>
+        <div class="col-7 col-md-6 g-4">
+          <label class="label">Message</label><br>
+          <textarea class="textarea" maxlength="5000" required></textarea>
+        </div>
+        <div class="width-100"></div>
+        <div class="col-7 col-md-6 g-4">
+          <button class="buttonform" type="submit">Envoyer le formulaire</button>
+        </div>
       </div>
-      <div class="inputprenom">
-        <label class="label">Prénom</label>
-        <input type="text" class="prenom" maxlength="50" required>
-      </div>
-      <div class="inputmail">
-        <label class="label">Adresse e-mail</label>
-        <input type="email" class="mail" maxlength="75" required>
-      </div>
-      <div class="selectraisons">
-        <label class="label">Raisons</label>
-        <select class="raisons" required>
-          <option selected disabled value="">Choisissez</option>
-          <option>Bugs</option>
-          <option>Retours/Feedbacks</option>
-          <option>Questions</option>
-          <option>Autre</option>
-        </select>
-      </div>
-      <div class="description">
-        <label class="label">Message</label><br>
-        <textarea class="textarea" maxlength="5000" required></textarea>
-      </div>
-      <button class="buttonform" type="submit">Envoyer le formulaire</button>
     </form>
 
     <div class="flagbottom">
