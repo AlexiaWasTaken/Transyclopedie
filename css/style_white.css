@@ -23,18 +23,6 @@ html,body {
   padding: 0px;
 }
 
-@media (max-width:671.5px) {
-  .navbar {
-    height: 102px;
-  }
-}
-
-@media (max-width:374.5px) {
-  .navbar {
-    height: 153px;
-  }
-}
-
 .buttonnavbar {
   display: inline;
   font-weight: 800;
@@ -50,7 +38,6 @@ html,body {
 }
 .buttonnavbar:hover {
   background-color: #f4eeff;
-  color: #2c2c2c;
 }
 
 .buttonnavbaron {
@@ -116,6 +103,7 @@ h1 {
 
 .divbuttonnextpagebas {
   text-align: end;
+  margin-top: 2em;
   margin-right: 1.5%;
 }
 
@@ -124,10 +112,13 @@ h1 {
   height: 40px;
   color: #f4eeff;
   border: 0px;
-  padding-bottom: 4px;
+  padding: 0.7rem;
+  padding-top: 0.4rem;
   border-radius: 9px;
   background-color: #2c2c2c;
   margin: 15px;
+  text-decoration: none;
+  cursor: pointer;
   transition: 0.5s ease;
 }
 .buttonnextpage:hover {
@@ -250,7 +241,7 @@ sup{
   margin-bottom: auto;
   margin-left: 2em;
   margin-right: 2em;
-  min-width: 400px;
+  min-width: 30%;
 }
 
 @media (max-height: 500.5px) {
@@ -435,26 +426,25 @@ footer {
   background-color: #2c2c2c;
 }
 
+/*                                   */
+/*             Autre CSS             */
+/*                                   */
+
 a {
-  color: #2c2c2c;
+  color: #f4a9b7;
 }
 a:visited {
-  color: #2c2c2c;
+  color: #f4a9b7;
 }
 a:hover {
-  color: #000000;
-}
-
-.linkfooter {
-  color: #f4a9b7;
-}
-.linkfooter:visited {
-  color: #f4a9b7;
-}
-.linkfooter:hover {
   color: #ffffff;
 }
 
+.buttonnavbar:hover {
+  background-color: #f4eeff;
+  color: #f4eeff;
+  cursor: pointer;
+}
 
 /* Fonctionne sur Firefox */
 * {
@@ -470,4 +460,77 @@ a:hover {
 
 *::-webkit-scrollbar-thumb {
   background: #f4eeff;
+}
+
+/*                                     */
+/*            Media queries            */
+/*                                     */
+
+@media (max-width:671.5px) {
+  .navbar {
+    height: 102px;
+  }
+}
+@media (max-width:374.5px) {
+  .navbar {
+    height: 153px;
+  }
+}
+@media (max-height: 500.5px) {
+  .textemonexperience {
+    margin: 2vw;
+    font-size: 1.2em;
+  }
+  #imgintro {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #imgconclusion {
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 200px;
+  }
+}
+@media (orientation:portrait) {
+  .divintro {
+    display:block;
+    text-align: center;
+  }
+  .texteintro {
+    font-size: 2vh;
+  }
+  h1 {
+    font-size: 1.4em;
+  }
+  .texteavertissement {
+    font-size: 1.5vh;
+  }
+  .textebienagir {
+    font-size: 1.8vh;
+  }
+  .buttonnextpage {
+    padding: 0.4rem;
+    font-size: 0.8rem;
+    height: 1.9rem;
+    border-radius: 0.5rem;
+  }
+  .arrownextpage{
+    height: 1em;
+  }
+  .divconclusion {
+    display:block;
+    text-align: center;
+  }
+  .textemonexperience {
+    margin: 2.5vw;
+  }
+  #imgintro {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #imgconclusion {
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 200px;
+  }
 }
