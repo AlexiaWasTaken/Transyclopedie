@@ -474,17 +474,20 @@ a:hover {
     display:block;
     text-align: center;
   }
+  .resumetexteintro {
+    font-size: 1.45rem;
+  }
   .texteintro {
-    font-size: 2vh;
+    font-size: 1.4rem;
   }
   h1 {
-    font-size: 1.4em;
+    font-size: 1.5rem;
   }
   .texteavertissement {
-    font-size: 1.5vh;
+    font-size: 1.3rem;
   }
   .textebienagir {
-    font-size: 1.8vh;
+    font-size: 1.4rem;
   }
   .buttonnextpage {
     padding: 0.4rem;
@@ -500,7 +503,7 @@ a:hover {
     text-align: center;
   }
   .textemonexperience {
-    margin: 2.5vw;
+    margin: 1.4rem;
   }
   #imgintro {
     margin-left: auto;
