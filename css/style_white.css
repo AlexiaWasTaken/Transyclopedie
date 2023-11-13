@@ -1,3 +1,7 @@
+/*                                        */
+/*    CSS Présent sur toutes les pages    */
+/*                                        */
+
 html,body {
   min-height: 100vh;
   display: flex;    
@@ -72,39 +76,32 @@ html,body {
   bottom: -35px;
 }
 
-h1 {
-  text-align: center;
-  font-size: 5vw;
-  margin-top: 1vh;
-  word-wrap: break-word;
-  text-shadow: #000000 0px 1px 2px;
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: auto;
+  height: 35px;
+  background-color: #2c2c2c;
+  font-size: 1rem;
 }
 
-.texteavertissement {
-  color: #996099;
-  text-align: center;
-  font-size: 2.2vw;
-  font-weight: bold;
-  margin-top: 1.2vh;
-  text-shadow: #666666 0px 1px 1px;
-}
-
-.soustitre{
-  text-align: left;
+.divfooter {
   margin: auto;
-  margin-left: 5%;
-  font-size: 1.5em; 
-  color: #2c2c2c;
+  text-align: center;
+  word-wrap: break-word;
+  height: fit-content;
+  background-color: #2c2c2c;
 }
+
+/*                                          */
+/*  CSS Présent sur les pages de la navbar  */
+/*                                          */
 
 .divbuttonnextpage {
   text-align: center;
-}
-
-.divbuttonnextpagebas {
-  text-align: end;
-  margin-top: 2em;
-  margin-right: 1.5%;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .buttonnextpage {
@@ -131,19 +128,31 @@ h1 {
   margin-left: 4px;
 }
 
-.divtitre {
-  margin-top: auto;
-  text-align: center;
+.divbuttonnextpagebas {
+  text-align: end;
+  margin-top: 2em;
+  margin-right: 1.5%;
 }
 
-.titre {
-  margin-top: 1.5%;
-  margin-left: 3.5%;
-  font-size: 1.8em;
+/*                                   */
+/*    CSS Présent dans index.html    */
+/*                                   */
+
+h1 {
+  text-align: center;
+  font-size: 5vw;
+  margin-top: 1vh;
+  word-wrap: break-word;
+  text-shadow: #000000 0px 1px 2px;
+}
+
+.texteavertissement {
+  color: #996099;
+  text-align: center;
+  font-size: 1.6rem;
   font-weight: bold;
-  width: auto;
-  color: #2c2c2c;
-  text-align: left;
+  margin-top: 1.2vh;
+  text-shadow: #666666 0px 1px 1px;
 }
 
 .divintro {
@@ -155,7 +164,7 @@ h1 {
 .resumetexteintro {
   margin-top: 0;
   margin-bottom: 2%;
-  font-size: 1.6em;
+  font-size: 1.6rem;
   font-weight: bold;
   color: #2c2c2c;
   text-align: center;
@@ -164,62 +173,9 @@ h1 {
 .texteintro {
   margin: 1.5%;
   margin-left: 2%;
-  font-size: 1.8em;
+  font-size: 1.8rem;
   color: #2c2c2c;
   text-align: center;
-}
-
-.divconclusion {
-  margin-top: 2.5%;
-  display: inline-flex;
-  justify-content: center;
-}
-
-.texte{
-  margin: auto;
-  margin-left: 8%;
-  margin-right: 8%;
-  margin-bottom: 1em;
-  text-align: left;
-  font-size: 1.4em;
-  color: #2c2c2c;
-  overflow-wrap: break-word;
-}
-
-.textebienagir{
-  margin: auto;
-  margin-left:6%;
-  margin-right:6%;
-  font-size: 1.3em;
-  text-align: left;
-  color: #2c2c2c;
-}
-
-.textemonexperience{
-  margin: auto;
-  margin-left: 6%;
-  margin-right: 6%;
-  margin-bottom: 1em;
-  text-align: left;
-  font-size: 1.4em;
-  color: #2c2c2c;
-  overflow-wrap: break-word;
-}
-
-sup{
-  font-size: 0.6em;
-  scroll-margin-top: 4rem;
-}
-
-.sup{
-  margin: auto;
-  margin-left: 8%;
-  margin-right: 8%;
-  margin-bottom: 1em;
-  text-align: left;
-  font-size: 1.1em;
-  color: #2c2c2c;
-  overflow-wrap: break-word;
 }
 
 #imgintro {
@@ -233,6 +189,77 @@ sup{
   min-width: 200px;
 }
 
+/*                                       */
+/*    CSS Présent dans Les_bases.html    */
+/*                                       */
+
+.soustitre{
+  text-align: left;
+  margin: auto;
+  margin-left: 5%;
+  font-size: 1.5rem; 
+  color: #2c2c2c;
+}
+
+/*                                       */
+/*    CSS Présent dans Bien_agir.html    */
+/*                                       */
+
+.textebienagir{
+  margin: auto;
+  margin-left:6%;
+  margin-right:6%;
+  font-size: 1.6rem;
+  text-align: left;
+  color: #2c2c2c;
+}
+
+/*                                     */
+/*    CSS Présent dans Mon_exp.html    */
+/*                                     */
+
+.textemonexperience{
+  margin: auto;
+  margin-left: 6%;
+  margin-right: 6%;
+  margin-bottom: 1em;
+  text-align: left;
+  font-size: 1.4rem;
+  color: #2c2c2c;
+  overflow-wrap: break-word;
+}
+
+sup{
+  font-size: 0.6rem;
+  scroll-margin-top: 4rem;
+}
+
+.sup{
+  margin: auto;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-bottom: 1em;
+  text-align: left;
+  font-size: 1.1rem;
+  color: #2c2c2c;
+  overflow-wrap: break-word;
+}
+
+/*                                        */
+/*    CSS Présent dans Conclusion.html    */
+/*                                        */
+
+.divconclusion {
+  margin-top: 2.5%;
+  display: inline-flex;
+  justify-content: center;
+}
+
+#texteconclusion{
+  margin-bottom: 3rem;
+  margin-left: 5%;
+}
+
 #imgconclusion {
   border-radius: 15px;
   max-width: 50%;
@@ -244,83 +271,32 @@ sup{
   min-width: 30%;
 }
 
-@media (max-height: 500.5px) {
-  .textemonexperience{
-    margin: 2vw;
-    font-size: 1.2em;
-  }
-  #imgintro{
-    margin-left: auto;
-    margin-right: auto;
-  }
-  #imgconclusion{
-    margin-left: auto;
-    margin-right: auto;
-    min-width: 200px;
-  }
-}
-@media (orientation:portrait) {
-  .divintro{
-    display:block;
-    text-align: center;
-  }
-  .texteintro{
-    font-size: 2vh;
-  }
-  h1{
-    font-size: 1.4em;
-  }
-  .texteavertissement{
-    font-size: 1.5vh;
-  }
-  .textebienagir{
-    font-size: 1.8vh;
-  }
-  .buttonnextpage{
-    font-size: 0.9em;
-    height: 1.9rem;
-    border-radius: 0.5rem;
-  }
-  .arrownextpage{
-    height: 1.4vh;
-  }
-  .divconclusion{
-    display:block;
-    text-align: center;
-  }
-  .textemonexperience{
-    margin: 2.5vw;
-  }
-  #imgintro{
-    margin-left: auto;
-    margin-right: auto;
-  }
-  #imgconclusion{
-    margin-left: auto;
-    margin-right: auto;
-    min-width: 200px;
-  }
-}
-
-#texteconclusion{
-  margin-bottom: 3rem;
-  margin-left: 5%;
-}
+/*                                      */
+/*    CSS Présent dans Ment_leg.html    */
+/*                                      */
 
 .titreMent_leg{
   margin: 5%;
   margin-bottom: 2%;
-  font-size: 38px;
+  font-size: 2.1rem;
   font-weight: 700;
   text-decoration: underline;
   overflow-wrap: break-word;
 }
 
-inlineform{
-  display: block;
-  justify-self: unset;
-  justify-content: unset;
-}
+/*                                        */
+/*   CSS Présent dans Me_contacter.html   */
+/*                                        */
+
+
+
+
+
+
+
+
+
+
 
 .nom{
   border-radius: 10px;
@@ -367,13 +343,6 @@ inlineform{
   outline: none;
 }
 
-.description{
-  margin:auto;
-  text-align:start;
-  color: #2c2c2c ;
-  width:50%;
-}
-
 .textarea{
   display:flex;
   margin:auto;
@@ -408,27 +377,36 @@ inlineform{
   transition: 0.3s ease;
 }
 
-footer {
-  display: flex;
-  justify-content: space-evenly;
-  width: 100%;
-  margin-top: auto;
-  height: 35px;
-  background-color: #2c2c2c;
-  font-size: 1em;
-}
-
-.divfooter {
-  margin: auto;
-  text-align: center;
-  word-wrap: break-word;
-  height: fit-content;
-  background-color: #2c2c2c;
-}
 
 /*                                   */
 /*             Autre CSS             */
 /*                                   */
+
+.divtitre {
+  margin-top: auto;
+  text-align: center;
+}
+
+.titre {
+  margin-top: 1.5%;
+  margin-left: 3.5%;
+  font-size: 1.8rem;
+  font-weight: bold;
+  width: auto;
+  color: #2c2c2c;
+  text-align: left;
+}
+
+.texte{
+  margin: auto;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-bottom: 1em;
+  text-align: left;
+  font-size: 1.4rem;
+  color: #2c2c2c;
+  overflow-wrap: break-word;
+}
 
 a {
   color: #f4a9b7;

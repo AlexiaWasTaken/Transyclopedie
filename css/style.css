@@ -84,7 +84,7 @@ footer {
   margin-top: auto;
   height: 35px;
   background-color: #2c2c2c;
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 .divfooter {
@@ -151,7 +151,7 @@ h1 {
 .texteavertissement {
   color: #f4a9b7;
   text-align: center;
-  font-size: 2.2vw;
+  font-size: 1.6rem;
   font-weight: 500;
   margin-top: 1.2vh;
   text-shadow: #666666 0px 1px 3px;
@@ -166,7 +166,7 @@ h1 {
 .resumetexteintro {
   margin-top: 0;
   margin-bottom: 2%;
-  font-size: 1.6em;
+  font-size: 1.6rem;
   font-weight: bold;
   color: #f4eeff;
   text-align: center;
@@ -176,7 +176,7 @@ h1 {
   margin: 1.5%;
   margin-left: 2%;
   margin-bottom: 2em;
-  font-size: 1.6em;
+  font-size: 1.6rem;
   color: #f4eeff;
   text-align: center;
 }
@@ -200,7 +200,7 @@ h1 {
   text-align: left;
   margin: auto;
   margin-left: 5%;
-  font-size: 1.5em; 
+  font-size: 1.5rem; 
   color: #f4eeff;
 }
 
@@ -212,7 +212,7 @@ h1 {
   margin: auto;
   margin-left:6%;
   margin-right:6%;
-  font-size: 1.3em;
+  font-size: 1.6rem;
   text-align: left;
   color: #f4eeff;
 }
@@ -227,13 +227,13 @@ h1 {
   margin-right: 6%;
   margin-bottom: 1em;
   text-align: left;
-  font-size: 1.4em;
+  font-size: 1.4rem;
   color: #f4eeff;
   overflow-wrap: break-word;
 }
 
 sup {
-  font-size: 0.6em;
+  font-size: 0.6rem;
   scroll-margin-top: 4rem;
 }
 
@@ -243,7 +243,7 @@ sup {
   margin-right: 8%;
   margin-bottom: 1em;
   text-align: left;
-  font-size: 1.1em;
+  font-size: 1.1rem;
   color: #f4eeff;
   overflow-wrap: break-word;
 }
@@ -281,7 +281,7 @@ sup {
 .titreMent_leg {
   margin: 5%;
   margin-bottom: 2%;
-  font-size: 38px;
+  font-size: 2.1rem;
   font-weight: 700;
   text-decoration: underline;
   overflow-wrap: break-word;
@@ -384,7 +384,7 @@ sup {
 .titre {
   margin-top: 1.5%;
   margin-left: 3.5%;
-  font-size: 1.8em;
+  font-size: 1.8rem;
   font-weight: bold;
   width: auto;
   color: #f4eeff;
@@ -397,7 +397,7 @@ sup {
   margin-right: 8%;
   margin-bottom: 1em;
   text-align: left;
-  font-size: 1.4em;
+  font-size: 1.4rem;
   color: #f4eeff;
   overflow-wrap: break-word;
 }
@@ -414,6 +414,7 @@ a:hover {
 
 .buttonnextpage:hover {
   color: #000000;
+  cursor: pointer;
 }
 
 /* Fonctionne sur Firefox */
@@ -470,7 +471,7 @@ a:hover {
     font-size: 2vh;
   }
   h1 {
-    font-size: 1.4em;
+    font-size: 1.4rem;
   }
   .texteavertissement {
     font-size: 1.5vh;
