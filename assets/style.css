@@ -1,0 +1,519 @@
+/*                                        */
+/*    CSS Présent sur toutes les pages    */
+/*                                        */
+
+html,body {
+  min-height: 100vh;
+  display: flex;    
+  flex-direction: column;
+  width: 100%;
+  font-family: 'Segoe UI', sans-serif;
+  color: #f4eeff;
+  background-color: #343434;
+  position: relative;
+}
+
+@font-face {
+  font-family: 'Segoe UI';
+  src: url('../assets/police/segoe-ui.ttf');
+}
+
+.navbar {
+  display: flexbox;
+  justify-content: center;
+  background-color: #2c2c2c;
+  background-size: 75px;
+  height: 51px;
+  padding: 0px;
+}
+
+.buttonnavbar {
+  cursor: pointer;
+  text-decoration: none;
+  display: inline;
+  font-weight: 800;
+  background-color: transparent;
+  border-radius: 7px;
+  border: 3px solid transparent;
+  color: #f4eeff;
+  padding: 5px;
+  padding-top: 1.7px;
+  height: 36px;
+  margin-left: 5px;
+  margin-right: 5px;
+  transition-duration: 0.5s;
+}
+.buttonnavbar:hover {
+  background-color: #f4eeff;
+  color: #000000;
+}
+
+.buttonnavbaron {
+  cursor: pointer;
+  text-decoration: none;
+  display: inline;
+  font-weight: 800;
+  border-radius: 7px;
+  border: 3px solid transparent;
+  background-color: #f4eeff;
+  color: #2c2c2c;
+  padding: 5px;
+  padding-top: 1.7px;
+  height: 36px;
+  margin-left: 5px;
+  margin-right: 5px;
+  transition-duration: 0.5s;
+}
+
+.flagtop {
+  background-image: url('../assets/img/FlagTop.jpg');
+  height: 3vh;
+  background-size: contain;
+  box-shadow: 0px 1.5px 10px #000000d0;
+}
+
+.flagbottom {
+  background-image: url('../assets/img/FlagBottom.jpg');
+  background-size:contain;
+  height: 3vh;
+  margin-top: auto;
+  margin-bottom: 35px;
+  box-shadow: 0px -1.5px 10px #000000d0;
+  position: relative;
+  bottom: -35px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: auto;
+  height: 35px;
+  background-color: #2c2c2c;
+  font-size: 1rem;
+}
+
+.divfooter {
+  margin: auto;
+  text-align: center;
+  word-wrap: break-word;
+  height: fit-content;
+  background-color: #2c2c2c;
+}
+
+/*                                          */
+/*  CSS Présent sur les pages de la navbar  */
+/*                                          */
+
+.divbuttonnextpage {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.buttonnextpage {
+  width: auto;
+  height: 40px;
+  color: #2c2c2c;
+  border: 0px;
+  padding: 0.7rem;
+  padding-top: 0.4rem;
+  border-radius: 9px;
+  background-color: #f4eeff;
+  margin: 15px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.5s ease;
+  font-weight: bold;
+}
+.buttonnextpage:hover {
+  transition: 0.5s ease;
+  background-color: #999999;
+}
+
+.arrownextpage {
+  height: 22px;
+  margin-left: 4px;
+}
+
+.divbuttonnextpagebas {
+  text-align: end;
+  margin-top: 2em;
+  margin-right: 1.5%;
+}
+
+/*                                   */
+/*    CSS Présent dans index.html    */
+/*                                   */
+
+h1 {
+  text-align: center;
+  font-size: 5vw;
+  margin-top: 1vh;
+  word-wrap: break-word;
+  text-shadow: #000000 2px 2px 2px;
+}
+
+.texteavertissement {
+  color: #f4a9b7;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-top: 1.2vh;
+  text-shadow: #666666 0px 1px 3px;
+}
+
+.divintro {
+  margin-top: 2.5%;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.resumetexteintro {
+  margin-top: 0;
+  margin-bottom: 2%;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #f4eeff;
+  text-align: center;
+}
+
+.texteintro {
+  margin: 1.5%;
+  margin-left: 2%;
+  margin-bottom: 2em;
+  font-size: 1.6rem;
+  color: #f4eeff;
+  text-align: center;
+}
+
+#imgintro {
+  border-radius: 15px;
+  max-width: 50%;
+  margin-top: auto;
+  height: min-content;
+  margin-bottom: auto;
+  margin-left: 3%;
+  margin-right: 1.5%;
+  min-width: 200px;
+}
+
+/*                                       */
+/*    CSS Présent dans Les_bases.html    */
+/*                                       */
+
+.soustitre {
+  text-align: left;
+  margin: auto;
+  margin-left: 5%;
+  font-size: 1.5rem; 
+  color: #f4eeff;
+}
+
+/*                                       */
+/*    CSS Présent dans Bien_agir.html    */
+/*                                       */
+
+.textebienagir {
+  margin: auto;
+  margin-left:6%;
+  margin-right:6%;
+  font-size: 1.6rem;
+  text-align: left;
+  color: #f4eeff;
+}
+
+/*                                     */
+/*    CSS Présent dans Mon_exp.html    */
+/*                                     */
+
+.textemonexperience {
+  margin: auto;
+  margin-left: 6%;
+  margin-right: 6%;
+  margin-bottom: 1em;
+  text-align: left;
+  font-size: 1.4rem;
+  color: #f4eeff;
+  overflow-wrap: break-word;
+}
+
+sup {
+  font-size: 0.6rem;
+  scroll-margin-top: 4rem;
+}
+
+.sup {
+  margin: auto;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-bottom: 1em;
+  text-align: left;
+  font-size: 1.1rem;
+  color: #f4eeff;
+  overflow-wrap: break-word;
+}
+
+/*                                        */
+/*    CSS Présent dans Conclusion.html    */
+/*                                        */
+
+.divconclusion {
+  margin-top: 2.5%;
+  display: inline-flex;
+  justify-content: center;
+}
+
+#texteconclusion {
+  margin-bottom: 3em;
+  margin-left: 5%;
+}
+
+#imgconclusion {
+  border-radius: 15px;
+  max-width: 75%;
+  margin-top: auto;
+  height: min-content;
+  margin-bottom: auto;
+  margin-left: 3%;
+  margin-right: 1.5%;
+  min-width: 30%;
+}
+
+/*                                      */
+/*    CSS Présent dans Ment_leg.html    */
+/*                                      */
+
+.titreMent_leg {
+  margin: 5%;
+  margin-bottom: 2%;
+  font-size: 2.1rem;
+  font-weight: 700;
+  text-decoration: underline;
+  overflow-wrap: break-word;
+}
+
+/*                                        */
+/*   CSS Présent dans Me_contacter.html   */
+/*                                        */
+
+.nom {
+  display:inline-flex;
+  border-radius: 10px;
+  background-color: #f4eeff ;
+  color: #2c2c2c ;
+  width:100%;
+  height:35px;
+  margin-bottom:1em;
+  border: 0px;
+  outline: none;
+}
+
+.prenom {
+  display:inline-flex;
+  border-radius: 10px;
+  background-color: #f4eeff ;
+  color: #2c2c2c ;
+  width:100%;
+  height:35px;
+  margin-bottom:1em;
+  border: 0px;
+  outline: none;
+}
+
+.mail {
+  display:inline-flex;
+  border-radius: 10px;
+  background-color: #f4eeff ;
+  color: #2c2c2c ;
+  height:35px;
+  margin-bottom:1em;
+  width:100%;
+  border: 0px;
+  outline: none;
+}
+
+.raisons {
+  display:inline-flex;
+  border-radius: 10px;
+  background-color: #f4eeff ;
+  color: #2c2c2c ;
+  width:100%;
+  height:35px;
+  margin-bottom:1em;
+  border: 0px;
+  outline:none;
+}
+
+.textarea {
+  display:flex;
+  margin:auto;
+  border-radius: 10px;
+  background-color: #f4eeff ;
+  color: #2c2c2c ;
+  min-height: 50px;
+  width:100%;
+  height:100px;
+  margin-bottom:1em;
+  border: 0px;
+  outline: none;
+}
+
+.buttonform {
+  display:block;
+  text-align:center;
+  margin:auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  background-color: #ffeefd;
+  border-radius: 10px;
+  padding: 0.3em;
+  border: 0px;
+  color: #2c2c2c ;
+  transition: 0.5s ease;
+}
+.buttonform:active {
+  background-color: #2c2c2c;
+  color: #f4eeff; 
+  transition: 0.3s ease;
+}
+
+/*                                   */
+/*             Autre CSS             */
+/*                                   */
+
+.divtitre {
+  margin-top: auto;
+  text-align: center;
+}
+
+.titre {
+  margin-top: 1.5%;
+  margin-left: 3.5%;
+  font-size: 1.8rem;
+  font-weight: bold;
+  width: auto;
+  color: #f4eeff;
+  text-align: left;
+}
+
+.texte {
+  margin: auto;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-bottom: 1em;
+  text-align: left;
+  font-size: 1.4rem;
+  color: #f4eeff;
+  overflow-wrap: break-word;
+}
+
+a {
+  color: #f4eeffb2;
+}
+a:visited {
+  color: #f4eeffb2;
+}
+a:hover {
+  color: #af7d98b2;
+}
+
+.buttonnavbar:hover {
+  color: #000000;
+}
+
+.buttonnavbaron:hover {
+  color: #000000;
+}
+
+/* Fonctionne sur Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #f4eeff #2c2c2c;
+}
+
+/* Fonctionne sur Chrome, Edge, et Safari */
+*::-webkit-scrollbar {
+  background-color: #2c2c2c;
+  width: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #f4eeff;
+}
+
+/*                                     */
+/*            Media queries            */
+/*                                     */
+
+@media (max-width:636.5px) {
+  .navbar {
+    height: 102px;
+  }
+}
+@media (max-width:349.5px) {
+  .navbar {
+    height: 153px;
+  }
+}
+@media (max-height: 500.5px) {
+  .textemonexperience {
+    margin: 2vw;
+    font-size: 1.2em;
+  }
+  #imgintro {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #imgconclusion {
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 200px;
+  }
+}
+@media (orientation:portrait) {
+  .divintro {
+    display:block;
+    text-align: center;
+  }
+  .resumetexteintro {
+    font-size: 1.25rem;
+  }
+  .texteintro {
+    font-size: 1.4rem;
+  }
+  h1 {
+    font-size: 2.2rem;
+  }
+  .texteavertissement {
+    font-size: 1rem;
+  }
+  .textebienagir {
+    font-size: 1.4rem;
+  } 
+  .buttonnextpage {
+    padding: 0.4rem;
+    font-size: 0.8rem;
+    height: 1.9rem;
+    border-radius: 0.5rem;
+  }
+  .arrownextpage{
+    height: 1em;
+  }
+  .divconclusion {
+    display:block;
+    text-align: center;
+  }
+  .textemonexperience {
+    margin: 1.4rem;
+  }
+  #imgintro {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #imgconclusion {
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 200px;
+  }
+}
