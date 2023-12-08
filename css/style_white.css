@@ -124,6 +124,7 @@ footer {
   text-decoration: none;
   cursor: pointer;
   transition: 0.5s ease;
+  font-weight: bold;
 }
 .buttonnextpage:hover {
   transition: 0.5s ease;

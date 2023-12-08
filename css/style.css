@@ -124,10 +124,11 @@ footer {
   text-decoration: none;
   cursor: pointer;
   transition: 0.5s ease;
+  font-weight: bold;
 }
 .buttonnextpage:hover {
   transition: 0.5s ease;
-  background-color: #999999;
+  background-color: #bbbbbb;
 }
 
 .arrownextpage {
@@ -140,7 +141,6 @@ footer {
   margin-top: 2em;
   margin-right: 1.5%;
 }
-
 
 /*                                   */
 /*    CSS Présent dans index.html    */
@@ -415,7 +415,7 @@ a:visited {
   color: #f4eeffb2;
 }
 a:hover {
-  color: #af7d98b2;
+  color: #996099;
 }
 
 .buttonnavbar:hover {
