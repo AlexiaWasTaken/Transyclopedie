@@ -360,10 +360,10 @@ sup{
   display:block;
   text-align:center;
   margin:auto;
-  margin-bottom: 1em;
+  margin-top: 2em;
+  margin-bottom: 2em;
   background-color: #2c2c2c;
   width: auto;
-  height: 35px;
   border-radius: 10px;
   padding: 0.3em;
   border: 0px;
